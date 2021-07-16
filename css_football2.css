@@ -1,0 +1,151 @@
+html {
+    width: 100%;
+    margin: 0px;
+    background-color: #6DDBD9;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+     height: 4.25rem;
+     background-color: black;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     flex-shrink: 0.5;
+ 
+}
+
+
+nav a { 
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav img {
+    height: 4.25rem;
+    position: absolute;
+
+}
+
+.teams {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.teams img {
+    height: 4rem;
+    background-color: none;
+}
+
+.teams .cup {
+     position: absolute;
+}
+
+
+
+.messipic {
+    background-color: #149AD0;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+h1 {
+    position: absolute;
+    bottom: 2rem;
+    left: 13rem;
+    font-family: absolute;
+    right: 50%;
+}   
+
+
+
+.messi {
+    height: 20rem;
+    width: 60%;
+    position: relative;
+    left: 1rem;
+    
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 2.5rem;
+}
+
+.scoreboard {
+    background-color: #8F0875;
+    height: 30rem;
+    width: 20%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.box {
+    background-color: #1B82CB;
+    height: 15rem;
+    width: 20%;
+}
+
+.social-media {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooney {
+    width: 5rem;
+    height: 6rem;
+    position: relative;
+    right: 5.5rem;
+}
+
+.boxx2:nth-of-type(1) {
+    justify-self: center;
+    align-self: baseline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.boxx2:nth-of-type(2) {
+    align-self: center;
+
+}
+
+.textt {
+    text-align: center;
+}
